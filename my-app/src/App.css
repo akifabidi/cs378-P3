@@ -1,66 +1,38 @@
-/* 
-  Style your elements by creating CSS classes here.
-  Below, you can see an example of a class called "menu" that changes the color of the text to blue. Modify according to your needs.
-*/
-
-.menu {
-  color: rgb(4, 4, 4);
+.App {
+  text-align: center;
 }
 
-body {
-  color: orange;
-  padding: 25px 50px;
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
 }
 
-.card{
-  border: 0;
-  margin: 25px auto;
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
 }
 
-.card-body{
-  padding:0
-}
-  
-.btn{
-  background-color: orange
-}
-
-.order-container{
-  margin: 40px 20px;
-}
-
-#itemTotal{
-  text-align: left
-}
-
-button {
-  background-color: rgb(255, 153, 0);
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
   color: white;
-  border: none;
-  font-size: 18px;
-  padding: 6px 12px;
-  border-radius: 10px;
-  margin: 10px
 }
 
-#header{
-  margin: 15px auto;
-  font-style: bold;
-  font-family: Georgia, serif;
-  color: rgb(0, 0, 0)
+.App-link {
+  color: #61dafb;
 }
 
-#subheader{
-  font-family: URW Chancery L, cursive;
-  color: rgb(220, 143, 8)
-}
-
-small {
-  font-family: Helvetica, sans-serif;
-  font-style: italic;
-  color:darkgrey
-}
-.card-img{
-  min-width: 110px;
-  max-width: 160px;
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
